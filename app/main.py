@@ -57,4 +57,3 @@ async def chat(chat_id: str, question: str):
         return {"response": response}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-
