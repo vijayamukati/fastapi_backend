@@ -1,5 +1,5 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
-from app.utils import scrape_url, extract_pdf_text
+from .utils import scrape_url, extract_pdf_text
 from app.embeddings import generate_embeddings, find_relevant_content
 from uuid import uuid4
 
