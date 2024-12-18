@@ -8,3 +8,6 @@ PyPDF2
 pydantic
 scikit-learn
 sentence-transformers
+requests
+beautifulsoup4
+pdfplumber
